@@ -1,0 +1,718 @@
+
+.menuBar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    background-color: #dce0fc;
+    width: 100%;
+    height: 12%;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.grupo-botao{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: flex-end;
+    align-items: center;
+}   
+
+.menuBar .socialMidia{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 8vw;
+    margin-right: 8vw; 
+    width: 10%;
+    height: 100%;
+}
+
+.menuBar .socialMidia .png{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.pngLinkedin{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.botao-item{
+    text-align: center;
+    margin: 2vw;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+}
+.botao-item-digaOla{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+}
+
+@media(min-width:760px){
+    .bemVindo{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2vw;
+        gap: 10px;
+        justify-content:flex-start;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 4vw;
+    }
+}
+
+
+.texto-apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    max-width: 100%;
+    padding-left: 3%;
+    padding-top: 12vw;
+}
+
+
+.texto-apresentacao .bem-vindo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: -2%;
+}
+
+.texto-apresentacao .apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    max-width: 70%;
+}
+
+.texto-apresentacao .botaoSobreMim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 15px;
+    background-color: #dce0fc;
+    padding: 1vw 3vw;
+}
+
+.bem-vindo .imagem{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bemVindo .imagem .animacao{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    max-width: 100%;
+    padding-top: 6vw;
+}
+
+.gifMouse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sobreMim{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 6vw;
+    margin-bottom: 6vw; 
+}
+
+.sobreMim .tituloSessao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    font-size: 2em;
+}
+
+@media(min-width:760px){
+    .sobreMim .sobreMimArea{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+    }
+}
+
+
+.sobreMim .divImagemLeandro{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 4vw;
+    padding-left: 5vw;
+}
+
+.sobreMim .sobreMimTexto{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 1vw;
+    font-size: 100%;
+    font-size: 1.2em;
+    text-justify: auto;
+}
+
+.p2{
+    display: flex;
+    margin-top: -2%;
+}
+
+.sobreMimArea .sobreMimTexto .downloadButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2vw;
+    text-decoration: none;
+    color: black;
+    background-color: #dce0fc;
+    border-radius: 15px;
+    padding: 2% 6%;
+    font-size: medium;
+}
+
+
+.habilidades{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 10vw;
+}
+
+.colunas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+    justify-content: space-between;
+}
+
+.habilidades .tituloSessaoHabilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.habilidades .habilidades-primeiraColuna{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: wheat; */
+    align-content: flex-start;
+    justify-content: flex-end;
+    width: 40%;
+    height: 100%;
+    margin-left: 5vw;
+}
+/* --------------------------- Primeira Habilidade ------------------- */
+.habilidades-primeiraColuna .primeiraHabilidade{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 5%;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: 4vw;
+}
+
+
+.habilidades-primeiraColuna .primeiraHabilidade .barraPrincipal{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 70%;
+    align-items: center;
+    height: 35%;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.habilidades-primeiraColuna .primeiraHabilidade .barraPrincipal .barraSecundaria{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades-primeiraColuna .primeiraHabilidade .barraPrincipal .barraSecundaria .habilidadesPorcentagem{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2vw;
+    letter-spacing: 2px;
+    font-size: 100%;
+}
+
+/* ----------------------------- Segunda Habilidade-------------- */
+.habilidades-primeiraColuna .segundaHabilidade{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 5%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4vw;
+}
+
+.habilidades-primeiraColuna .segundaHabilidade .barraPrincipal{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 70%;
+    align-items: center;
+    height: 35%;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.habilidades-primeiraColuna .segundaHabilidade .barraPrincipal .barraSecundaria{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades-primeiraColuna .segundaHabilidade .barraPrincipal .barraSecundaria .habilidadesPorcentagem{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2vw;
+    letter-spacing: 2px;
+    font-size: 100%;
+}
+
+/* ------------------------------- Terceira Habilidade -------------------- */
+
+.habilidades-primeiraColuna .terceiraHabilidade{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 5%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4vw;
+}
+
+.habilidades-primeiraColuna .terceiraHabilidade .barraPrincipal{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 70%;
+    align-items: center;
+    height: 35%;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.habilidades-primeiraColuna .terceiraHabilidade .barraPrincipal .barraSecundaria{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    width: 87%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades-primeiraColuna .terceiraHabilidade .barraPrincipal .barraSecundaria .habilidadesPorcentagem{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2vw;
+    letter-spacing: 2px;
+    font-size: 100%;
+}
+
+
+/* ------------------------------- Quarta Habilidade -------------------- */
+
+.habilidades-primeiraColuna .quartaHabilidade{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 5%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4vw;
+}
+
+.habilidades-primeiraColuna .quartaHabilidade .barraPrincipal{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 70%;
+    align-items: center;
+    height: 35%;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.habilidades-primeiraColuna .quartaHabilidade .barraPrincipal .barraSecundaria{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades-primeiraColuna .quartaHabilidade .barraPrincipal .barraSecundaria .habilidadesPorcentagem{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2vw;
+    letter-spacing: 2%;
+    font-size: 100%;
+}
+
+/* ------------------------ Segunda coluna -------------------  */
+
+.habilidades .habilidades-segundaColuna{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: wheat; */
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 40%;
+    height: 40%;
+}
+
+/* --------------------------- Primeira Habilidade -------------- */
+.habilidades-segundaColuna .primeiraHabilidade{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 5%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4vw;
+}
+
+.habilidades-segundaColuna .primeiraHabilidade .barraPrincipal{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 70%;
+    align-items: center;
+    height: 35%;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.habilidades-segundaColuna .primeiraHabilidade .barraPrincipal .barraSecundaria{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades-segundaColuna .primeiraHabilidade .barraPrincipal .barraSecundaria .habilidadesPorcentagem{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2vw;
+    letter-spacing: 2px;
+    font-size: 100%;
+}
+
+
+/*------------------------- Segunda Habilidade  -------------------------*/
+
+.habilidades-segundaColuna .segundaHabilidade{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 5%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4vw;
+}
+
+.habilidades-segundaColuna .segundaHabilidade .barraPrincipal{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 70%;
+    align-items: center;
+    height: 35%;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.habilidades-segundaColuna .segundaHabilidade .barraPrincipal .barraSecundaria{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades-segundaColuna .segundaHabilidade .barraPrincipal .barraSecundaria .habilidadesPorcentagem{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2vw;
+    letter-spacing: 2px;
+    font-size: 100%;
+}
+
+
+/* ------------------------------- Terceira Habilidade ----------------------- */
+
+.habilidades-segundaColuna .terceiraHabilidade{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 5%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4vw;
+}
+
+.habilidades-segundaColuna .terceiraHabilidade .barraPrincipal{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 70%;
+    align-items: center;
+    height: 35%;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.habilidades-segundaColuna .terceiraHabilidade .barraPrincipal .barraSecundaria{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades-segundaColuna .terceiraHabilidade .barraPrincipal .barraSecundaria .habilidadesPorcentagem{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2vw;
+    letter-spacing: 2px;
+    font-size: 100%;
+}
+
+/* ------------------------------- Quarta Habilidade ------------------ */
+
+
+
+.habilidades-segundaColuna .quartaHabilidade{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 5%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4vw;
+}
+
+.habilidades-segundaColuna .quartaHabilidade .barraPrincipal{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 70%;
+    align-items: center;
+    height: 35%;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.habilidades-segundaColuna .quartaHabilidade .barraPrincipal .barraSecundaria{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades-segundaColuna .quartaHabilidade .barraPrincipal .barraSecundaria .habilidadesPorcentagem{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2vw;
+    letter-spacing: 2px;
+    font-size: 100%;
+}
+
+
+/* Projetos */
+
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.projetos .tituloProjetos{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.projetos .areaProjetos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding-left: -2%;
+}
+
+.projetos .areaProjetos .projeto1{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 2;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.projetos .areaProjetos .projeto2{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 2;
+    margin-left: -20%;
+    margin-right: -6%;
+    margin-top: 3%;
+}
+
+.projetos .areaProjetos .projeto3{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 3;
+    margin-left: -15%;
+    margin-right: -5%;
+}
+.projetos .areaProjetos .projeto4{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 2;
+    margin-left: -20%;
+    margin-top: 3%;
+}
+.projetos .areaProjetos .projeto5{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+    margin-left: -25%;
+    margin-top: 5%;
+}
+
+.projetos .botoesProjetos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-top: 1vw;
+}
+
+.projetos .botoesProjetos .maisInformacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #dce0fc;
+    font-size: medium;
+    padding: 1% 2%;
+
+}
